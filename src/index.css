@@ -33,6 +33,7 @@ html {
 }
 
 body {
+  
   font-family: var(--font-family);
   margin: 0;
   min-height: 100vh;
@@ -296,6 +297,10 @@ p {
   color: var(--dark-blue);
 }
 
+.--btn-purple {
+  background-color: #420669;
+}
+
 .--btn-lg {
   padding: 8px 10px;
 }
@@ -307,9 +312,18 @@ p {
 }
 
 .--btn-shop {
-  margin: 20px;
+  margin: 20px 0;
   padding: 15px;
+  width: 300px;
+  color: white;
+  font-weight: 600;
+  border-style: none;
 }
+
+.--btn-shop:hover {
+  box-shadow: 10px 5px 5px #1f93ff;
+}
+
 .--btn-primary {
   color: #fff;
   background:#0bbba6e1;
