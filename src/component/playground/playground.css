@@ -1,0 +1,15 @@
+.row {
+    display: flex; /* enable Flexbox for this container */
+    height: 80vh; /* take up the full viewport height */
+  }
+  
+  .src-code,
+  .template-preview {
+    flex-grow: 1; /* allow both elements to grow and take up available space */
+    overflow: auto; /* add scrollbars if the content overflows */
+  }
+  
+  .src-code {
+    resize: none; /* disable the ability to manually resize the textarea */
+  }
+  
