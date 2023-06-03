@@ -77,6 +77,9 @@ const Navbar = () => {
             <li>
               <NavLink to="/templates" className={activeLink}>Templates</NavLink>
             </li>
+            <li>
+              <NavLink to="/playground" className={activeLink}>Editor</NavLink>
+            </li>
           </ul>
 
           <div className={styles['header-right']} onClick={hideMenu}>
