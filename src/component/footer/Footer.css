@@ -5,10 +5,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 8rem;
+    height: 5em;
+    margin-top: auto;
     flex-direction: column;
 }
 
-p {
+.footer-p {
     color:#fff;
 }

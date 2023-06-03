@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-    <p>
+    <p className='footer-p'>
       &copy; {year} All Rights Reserved HackPortfolio Hackathon.
     </p>
     </footer>
