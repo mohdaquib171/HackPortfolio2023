@@ -2,6 +2,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Navbar from "./component/navbar/Navbar";
 import Home from "./component/home/Home";
+import Login from "./component/authentication/Login";
+import Register from "./component/authentication/Register";
+import Footer from "./component/footer/Footer";
+import Templates from "./component/templates/Templates";
 
 function App() {
   return (
@@ -10,7 +14,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/"  element={<Home />} /> 
-        </Routes>                                                                              
+          <Route path="/login"  element={<Login />} /> 
+          <Route path="/register"  element={<Register />} /> 
+          <Route path="/templates"  element={<Templates />} /> 
+        </Routes>      
+        <Footer />                                                                        
     </BrowserRouter>
     </>
   );
