@@ -19,6 +19,7 @@ function App() {
           <Route path="/register"  element={<Register />} /> 
           <Route path="/templates"  element={<Templates />} /> 
           <Route path="/playground"  element={<Playground />} />
+          <Route path="*" element={<Home />} />
         </Routes>      
         <Footer />                                                                                                                                                      
     </BrowserRouter>
