@@ -1,9 +1,10 @@
 import React from 'react'
+import './Home.css'
 
 const Home = () => {
   return (
-    <div>
-      Home page goes here
+    <div className='home-container'>
+      <h3>Home page...</h3>
     </div>
   )
 }
