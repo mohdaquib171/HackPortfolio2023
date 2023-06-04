@@ -4,8 +4,8 @@ const TemplateOne = () => {
   const style = {
     page: {
       fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-      margin: '0',
-      padding: '0',
+      margin: '0px',
+      padding: '10px',
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
@@ -13,10 +13,13 @@ const TemplateOne = () => {
       height: '100vh',
       color: '#333',
       background: '#264653',
+      height: '100%',
+      width: '100%',
       textAlign: 'center',
     },
     header: {
       fontSize: '2em',
+      padding: '20px',
       marginBottom: '0.5em',
       color: '#2a9d8f',
     },
@@ -26,7 +29,7 @@ const TemplateOne = () => {
       color: '#e9c46a',
     },
     main: {
-      margin: '1em',
+      margin: '0',
     },
     section: {
       margin: '1em 0',
@@ -40,6 +43,7 @@ const TemplateOne = () => {
   };
 
   return (
+    
     <div style={style.page}>
       <header style={style.header}>
         <h1 contentEditable>Hello, I'm John Doe</h1>
