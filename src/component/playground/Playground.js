@@ -2,7 +2,6 @@ import ReactDOMServer from 'react-dom/server';
 import React, { useState, useEffect } from 'react';
 import { html } from 'js-beautify';
 import TemplateOne from '../templates/TemplateOne';
-import AliElbekov from '../templates/alielbekov';
 
 import "../playground/playground.css"
 
@@ -16,10 +15,7 @@ const Playground = () => {
 
   const handleInputChange = (event) => {
     setRawContent(event.target.value);
-  };
-
-  const handleInputBlur = () => {
-    const prettyHtml = html(rawContent, { indent_size: 2 });
+    const prettyHtml = html(event.target.value, { indent_size: 2 });
     setTemplateContent(prettyHtml);
   };
 
@@ -38,13 +34,13 @@ const Playground = () => {
           className="src-code" 
           value={rawContent} 
           onChange={handleInputChange}
-          onBlur={handleInputBlur} 
         />
 
-
-        <iframe 
+        <div 
           className="template-preview" 
-          srcDoc={templateContent}
+          contentEditable 
+          dangerouslySetInnerHTML={{__html: templateContent}} 
+          onBlur={(e) => setRawContent(e.target.innerHTML)}
           style={{
             display: 'flex',
             justifyContent: 'center',
