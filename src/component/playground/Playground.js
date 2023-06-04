@@ -2,6 +2,8 @@ import ReactDOMServer from 'react-dom/server';
 import React, { useState, useEffect } from 'react';
 import { html } from 'js-beautify';
 import TemplateOne from '../templates/TemplateOne';
+import AliElbekov from '../templates/alielbekov';
+
 import "../playground/playground.css"
 
 const Playground = () => {
@@ -30,6 +32,7 @@ const Playground = () => {
     <div className="playground">
     <div className="textarea-container">
       <div className="row">
+        
         <textarea 
           id="src-code" 
           className="src-code" 
