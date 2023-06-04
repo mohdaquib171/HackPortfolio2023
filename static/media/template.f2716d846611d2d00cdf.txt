@@ -1,0 +1,33 @@
+<div style="font-family:&#x27;Segoe UI&#x27;, Tahoma, Geneva, Verdana, sans-serif;margin:0px;padding:10px;display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;color:#333;background:#264653;width:100%;text-align:center">
+  <header style="font-size:2em;padding:20px;margin-bottom:0.5em;color:#2a9d8f">
+    <h1 contenteditable="true">Hello, I&#x27;m John Doe</h1>
+    <p style="font-size:1.5em;margin-bottom:1em;color:#e9c46a" contenteditable="true">I&#x27;m a Music Designer</p>
+  </header>
+  <main style="margin:0">
+    <section style="margin:1em 0;color:#f4a261">
+      <h2 contenteditable="true">About Me</h2>
+      <p contenteditable="true">I am a passionate Music Designer with over 5 years of experience in creating compelling soundtracks for various multimedia projects. I specialize in music composition, sound design, and audio post-production.</p>
+    </section>
+    <section style="margin:1em 0;color:#f4a261">
+      <h2 contenteditable="true">My Skills</h2>
+      <ul>
+        <li contenteditable="true">Music Composition</li>
+        <li contenteditable="true">Sound Design</li>
+        <li contenteditable="true">Audio Post-Production</li>
+      </ul>
+    </section>
+    <section style="margin:1em 0;color:#f4a261">
+      <h2 contenteditable="true">My Work</h2>
+      <div contenteditable="true">Soundtrack for the video game &quot;Epic Adventure&quot;</div>
+      <div contenteditable="true">Original score for the short film &quot;Silent Nights&quot;</div>
+      <div contenteditable="true">Sound design for the mobile game &quot;Mystery Manor&quot;</div>
+    </section>
+    <section style="margin:1em 0;color:#f4a261">
+      <h2 contenteditable="true">Contact</h2>
+      <p contenteditable="true">For any inquiries, please contact me at john.doe@email.com</p>
+    </section>
+  </main>
+  <footer style="font-size:1em;margin-top:auto;color:#e76f51">
+    <p contenteditable="true">© 2023 John Doe</p>
+  </footer>
+</div>
