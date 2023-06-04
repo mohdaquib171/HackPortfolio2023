@@ -1,8 +1,8 @@
-import ReactDOMServer from 'react-dom/server';
-import React, { useState, useEffect } from 'react';
-import { html } from 'js-beautify';
-import TemplateOne from '../templates/TemplateOne';
-import template from "../../assets/template.txt";
+import ReactDOMServer from "react-dom/server";
+import React, { useState, useEffect } from "react";
+import { html } from "js-beautify";
+import TemplateOne from "../templates/TemplateOne";
+import template from "../../assets/template.txt"
 
 import "./playground.css";
 
@@ -20,10 +20,11 @@ const Playground = () => {
 
   const handleInputChange = (event) => {
     setRawContent(event.target.value);
-    const prettyHtml = html(event.target.value, { indent_size: 2 });
+  };
+  const handleInputBlur = () => {
+    const prettyHtml = html(rawContent, { indent_size: 2 });
     setTemplateContent(prettyHtml);
   };
-
   const handleSaveTemplate = () => {
     const templateHtml = templateContent;
     // Save or download the updated templateHtml using the 'file-saver' package
@@ -40,29 +41,27 @@ const Playground = () => {
             className="src-code"
             value={rawContent}
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
           />
 
-
-        <div 
-          className="template-preview" 
-          contentEditable 
-          dangerouslySetInnerHTML={{__html: templateContent}} 
-          onBlur={(e) => setRawContent(e.target.innerHTML)}
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            padding: '1rem',
-            border: '5px solid',
-            paddingTop: "0",
-            backgroundColor: 'rgba(255, 255, 255)'
-          }}
-        />
+          <iframe
+            className="template-preview"
+            srcDoc={templateContent}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "1rem",
+              border: "5px solid",
+              paddingTop: "0px",
+              backgroundColor: "rgba(255, 255, 255)",
+            }}
+          />
+        </div>
       </div>
-    </div>
 
       <div className="save">
-      <a id="btn-link" href={template} target='_blank' download>
+      <a id="btn-link" href={template} download>
       <button
           className="--btn --btn-primary --btn-shop"
           onClick={handleSaveTemplate}
@@ -71,9 +70,9 @@ const Playground = () => {
         </button>
         </a>
       </div>
-      
+
     </div>
   );
 };
 
-export default Playground;
+export default Playground
