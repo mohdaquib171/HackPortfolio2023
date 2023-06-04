@@ -1,6 +1,6 @@
-# PersonalizePortfolio
+# EditPortfolio
 
-PersonalizePortfolio is a user-friendly web app that allows you to create and customize your personal portfolio website effortlessly. With PersonalizePortfolio, you can showcase your skills, experiences, and achievements in a visually appealing and professional manner, without the need for extensive coding or design skills.
+EditPortfolio is a user-friendly web app that allows you to create and customize your personal portfolio website effortlessly. With EditPortfolio, you can showcase your skills, experiences, and achievements in a visually appealing and professional manner, without the need for extensive coding or design skills.
 
 ## Features
 
@@ -12,16 +12,16 @@ PersonalizePortfolio is a user-friendly web app that allows you to create and cu
 
 ## Tech Stack
 
-PersonalizePortfolio is built using the following technologies:
+EditPortfolio is built using the following technologies:
 
 - Front-end: HTML, CSS, JavaScript, React.js
 - Back-end: Node.js, Express.js
 
 ## Usage
 
-To use PersonalizePortfolio, simply follow these steps:
+To use EditPortfolio, simply follow these steps:
 
-1. Visit our website at [https://www.PersonalizePortfolio.com](https://www.PersonalizePortfolio.com).
+1. Visit our website at [https://www.EditPortfolio.tech](https://www.EditPortfolio.tech).
 2. Browse through the available template options and choose the one that resonates with your style.
 3. Click on the "Customize" button to access the editing interface.
 4. Make desired customizations to colors, fonts, layouts, and sections.
@@ -34,7 +34,7 @@ Please note that currently, we have one template available for customization, an
 
 ## Contributing
 
-We welcome contributions to enhance PersonalizePortfolio! If you'd like to contribute, please follow these steps:
+We welcome contributions to enhance EditPortfolio! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository and clone it to your local machine.
 2. Create a new branch for your feature or bug fix.
@@ -44,4 +44,4 @@ We welcome contributions to enhance PersonalizePortfolio! If you'd like to contr
 
 ## License
 
-PersonalizePortfolio is released under the [MIT License](LICENSE).
+EditPortfolio is released under the [MIT License](LICENSE).
