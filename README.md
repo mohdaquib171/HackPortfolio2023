@@ -10,6 +10,13 @@ PersonalizePortfolio is a user-friendly web app that allows you to create and cu
 
 - **Download**: Once you're satisfied with your edits, you can conveniently download your personalized portfolio website template.
 
+## Tech Stack
+
+PersonalizePortfolio is built using the following technologies:
+
+- Front-end: HTML, CSS, JavaScript, React.js
+- Back-end: Node.js, Express.js
+
 ## Usage
 
 To use PersonalizePortfolio, simply follow these steps:
